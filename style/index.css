@@ -37,6 +37,10 @@
   padding-right: 80px;
 }
 
+.accueil-photos div img {
+  border: 2px solid black; 
+}
+
 .section-contact h2 {
   color: #a5b4fc;
   text-align: center;
@@ -97,7 +101,8 @@ input[type='submit'] {
   .accueil-introduction img {
     order: 1;
     margin-bottom: 20px;
-    width: 100%;
+    padding: auto;
+    width: 60%;
   }
 
   .accueil-photos {
@@ -106,6 +111,11 @@ input[type='submit'] {
 
   .accueil-photos div {
     flex-direction: column;
+    padding-left: 10%;
+  }
+
+  .accueil-photos div img {
+    width: 90%;
   }
 
   .section-contact {
